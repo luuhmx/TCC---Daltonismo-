@@ -1,0 +1,32 @@
+\documentclass[12pt,a4]{article}
+\usepackage[utf8]{inputenc} %Pacote para acentuação
+\usepackage[portuguese,brazilian]{babel}
+\usepackage[lmargin=3cm,tmargin=3cm,rmargin=2cm,bmargin=2cm]{geometry} %Formato que lembra a ABNT
+\usepackage[T1]{fontenc} %Ajusta o texto que vem de outras fontes
+\usepackage{graphicx,xcolor,multirow,multicol}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,dsfont,mathtools,blindtext} %pacotes matemáticos
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+\section{LERO LERO}
+\subsection{Gerando Lero Lero}
+\begin{center}
+"Ainda assim,\textbf{\underline{existem dúvidas}} a respeito de como o novo modelo estrutural aqui preconizado afeta positivamente a correta previsão das \textbf{diversas correntes de pensamento."}
+\end{center}
+\subsection{lero 2}
+\begin{flushright}
+\textit{"Evidentemente, \underline{o desafiador cenário globalizado} faz parte de um processo de gerenciamento do remanejamento dos quadros funcionais."}
+\end{flushright}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=4cm]{R.jpg}
+\caption{Rio De Janeiro}
+\label{Fig01}
+\end{figure}
+
+Eu amo a cidade do Rio que é a Figura \ref{Fig01}
+
+\end{document}
